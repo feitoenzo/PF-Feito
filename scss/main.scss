@@ -1,0 +1,19 @@
+$colorPrimario: red;
+$colorSecundario: violet;
+$colorTerciario: rgb(95, 0, 95); 
+
+
+#containerNavList{
+    border: solid 5px $colorPrimario;
+}
+#logoPrincipal {
+width: 30px;
+height: 2px;
+}
+.container-fluid{
+    border: solid 5px $colorPrimario;
+}
+.navbar-brand{
+    border: 5px solid;
+    margin: 5px;
+}
