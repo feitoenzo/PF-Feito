@@ -1,3 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 div {
   border: solid 5px greenyellow;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+  position: fixed bottom;
+}
+
+nav {
+  background-image: linear-gradient(to right, black, green);
+}
+
+#containerIndex1 {
+  width: 100%;
+  text-align: center;
+}
+
+#cardHeader {
+  width: 100%;
+  height: 200px;
+}
+
+#imagenPrincipal {
+  width: 100%;
+  max-height: 500px;
+  min-height: 100px;
+}
+
+#cardHeader {
+  color: 8;
+}
+
+.row {
+  padding: 5px;
+}
+
+#logoPrincipal {
+  height: 30px;
+  width: 30px;
+}
+
+strong {
+  text-align: center;
+}
+
+#batDark {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=main.css.map */
