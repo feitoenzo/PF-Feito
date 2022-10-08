@@ -1,17 +1,3 @@
-#containerNavList {
-  border: solid 5px red;
-}
-
-#logoPrincipal {
-  width: 30px;
-  height: 2px;
-}
-
-.container-fluid {
-  border: solid 5px red;
-}
-
-.navbar-brand {
-  border: 5px solid;
-  margin: 5px;
+div {
+  border: solid 5px greenyellow;
 }/*# sourceMappingURL=main.css.map */

@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baticontactos</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" href="../multimedia/iconos/batman_icono.png" type="image/x-icon">
-</head>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <title>Hello, world!</title>
+      </head></head>
 
 <body>
     <header>
@@ -18,15 +22,26 @@
             </div>
         </a>
     </header>
-    <nav>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./productos.html">Productos</a></li>
-            <li><a class="active" href="./contactos.html">Contactos</a></li>
-            <li><a href="./nosotros.html">Nosotros</a></li>
-            <li><a href="./prox.html" >?</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="multimedia/iconos/batman_icono.png" alt="batman_icono" id="logoPrincipal">
+            BTMN co.
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto p-2" id="containerNavList">
+              <a class="nav-link active" aria-current="page" href="/index.html">INICIO</a>
+              <a class="nav-link" href="/paginas/productos.html">PRODUCTOS</a>
+              <a class="nav-link" href="/paginas/contactos.html">CONTACTOS</a>
+              <a class="nav-link" href="/paginas/nosotros.html">NOSOTROS</a>
+              <a class="nav-link" href="/paginas/prox.html" id="nygmaNav">?</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     <main>
         <div class="comunicate">
             <h6> COMUNICATE CON NOSOTROS!</h6>
