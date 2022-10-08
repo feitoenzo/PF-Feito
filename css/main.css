@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
-div {
-  border: solid 5px greenyellow;
+header {
+  background-image: url(/multimedia/imagenes/header2.jpg);
+}
+
+#nav {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 90%, rgb(0, 255, 51) 100%);
 }
 
 footer {
@@ -14,10 +19,6 @@ footer {
   background-color: DarkSalmon;
   color: white;
   position: fixed bottom;
-}
-
-nav {
-  background-image: linear-gradient(to right, black, green);
 }
 
 #containerIndex1 {
@@ -36,10 +37,6 @@ nav {
   min-height: 100px;
 }
 
-#cardHeader {
-  color: 8;
-}
-
 .row {
   padding: 5px;
 }
@@ -49,8 +46,19 @@ nav {
   width: 30px;
 }
 
+.card-title {
+  color: white;
+  text-align: center;
+}
+
+.card-text {
+  color: white;
+  text-align: center;
+}
+
 strong {
   text-align: center;
+  color: white;
 }
 
 #batDark {
@@ -58,4 +66,16 @@ strong {
      object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+#sectionProductos {
+  background-color: black;
+}
+
+#fila1 {
+  width: 50%;
+}
+
+#containerNavList a {
+  color: white;
 }/*# sourceMappingURL=main.css.map */

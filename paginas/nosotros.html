@@ -14,38 +14,39 @@
       </head></head>
 
 <body>
-         <!-- header inicia -->
-     <header>
-        <div class="card text-bg-dark">
-          <img src="..." class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small>Last updated 3 mins ago</small></p>
-          </div>
+ <!-- header inicia -->
+ <header>
+  <div class="card text-bg-dark" id="cardHeader">
+    <img src="/multimedia/imagenes/moon.jpg" id="imagenPrincipal" class="card-img" alt="bat_principal">
+    <div class="card-img-overlay">
+      <h1 class="card-title">BTN co.</h1>
+      <p class="card-text">Productos, servicios y mas</p>
+    </div>
+  </div>
+</header>
+<!--  termina header -->
+ <!-- INICIA NAV -->
+ <nav id="nav" class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html">
+        <img src="/multimedia/iconos/batman_icono.png" alt="batman_icono" id="logoPrincipal">
+        <strong> BTMN co. </strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto p-2" id="containerNavList">
+          <a class="nav-link active" aria-current="page" href="/index.html">INICIO</a>
+          <a class="nav-link" href="/paginas/productos.html">PRODUCTOS</a>
+          <a class="nav-link" href="/paginas/contactos.html">CONTACTOS</a>
+          <a class="nav-link" href="/paginas/nosotros.html">NOSOTROS</a>
+          <a class="nav-link" href="/paginas/prox.html" id="nygmaNav">?</a>
         </div>
-      </header>
-      <!--  termina header -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/index.html">
-            <img src="/multimedia/iconos/batman_icono.png" alt="batman_icono" id="logoPrincipal">
-            BTMN co.
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto p-2" id="containerNavList">
-              <a class="nav-link active" aria-current="page" href="/index.html">INICIO</a>
-              <a class="nav-link" href="/paginas/productos.html">PRODUCTOS</a>
-              <a class="nav-link" href="/paginas/contactos.html">CONTACTOS</a>
-              <a class="nav-link" href="/paginas/nosotros.html">NOSOTROS</a>
-              <a class="nav-link" href="/paginas/prox.html" id="nygmaNav">?</a>
-            </div>
-          </div>
-        </div>
-      </nav>
+      </div>
+    </div>
+  </nav>
+<!-- end nav -->
     <main>
         <section class="sectionNosotros">
            <h5>NUESTRA HISTORIA</h5>
@@ -58,6 +59,12 @@
         <a href="mailto:hege@example.com">hege@example.com</a></p>
       </footer>
       
-    <script src="https://kit.fontawesome.com/3f63f5d47e.js" crossorigin="anonymous"></script>
-</body>
+    <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+</script></body>
 </html>
