@@ -11,18 +11,20 @@ header {
 #nav {
   background: rgb(0, 0, 0);
   background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 90%, rgb(0, 255, 51) 100%);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 footer {
   text-align: center;
   padding: 3px;
-  background-color: DarkSalmon;
+  background-color: rgb(87, 86, 85);
   color: white;
   position: fixed bottom;
 }
 
 #containerIndex1 {
-  width: 100%;
   text-align: center;
 }
 
@@ -56,7 +58,7 @@ footer {
   text-align: center;
 }
 
-strong {
+h2 {
   text-align: center;
   color: white;
 }
@@ -78,4 +80,105 @@ strong {
 
 #containerNavList a {
   color: white;
+}
+
+.linksFooter {
+  text-decoration: none;
+}
+
+#primerParrafo {
+  background-color: rgb(37, 21, 75);
+  width: 100%;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#textBienvenidos {
+  font-size: 50px;
+  color: rgb(172, 157, 157);
+}
+
+.textCarru {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.containerTextCarru {
+  height: 40px;
+  border: solid 3px white;
+  border-radius: 10px;
+}
+
+#botonInfo {
+  width: 100%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#botonInfoHijo {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(3, 3, 3);
+}
+
+#botonInfoHijo:hover {
+  transition: 0.5s;
+  background-color: blueviolet;
+}
+
+#formularioContactos {
+  width: 70%;
+  border: solid 3px black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+#mainIndex {
+  background-color: black;
+}
+
+#textTitutuloForm {
+  font-size: 50px;
+  color: white;
+}
+
+#mainContactos {
+  background-color: black;
+}
+
+#formularioContactos label {
+  color: white;
+}
+
+.main-hack {
+  width: 100%;
+  height: 1000px;
+  background-image: url(../multimedia/imagenes/riddle_back.jpg);
+}
+
+.parrafoNygma {
+  color: white;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 80px;
+}
+
+.sectionNosotros {
+  height: 1000px;
+  width: 100%;
+  background-image: url(../multimedia/imagenes/fondo-nosotros.jpg);
+}
+
+.nosotrosParrafo {
+  background-color: transparent;
+  font-size: 30px;
+  font-family: "Gotham Black", sans-serif;
+  font-style: oblique;
+  color: aliceblue;
 }/*# sourceMappingURL=main.css.map */

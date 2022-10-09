@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
     <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+           <!-- Required meta tags -->
+           <meta charset="utf-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+           <meta name="author" content="Enzo">
+           <meta name="description" content="Pagina productos y entrenamientos de bataman">
+           <meta name="keywords" content="Batman, Batimovil, guason, productos">
     
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/style.css">
-        <title>Hello, world!</title>
+        <title>Btn co</title>
       </head></head>
 
 <body>
@@ -30,7 +33,7 @@
     <div class="container-fluid">
       <a class="navbar-brand" href="/index.html">
         <img src="/multimedia/iconos/batman_icono.png" alt="batman_icono" id="logoPrincipal">
-        <strong> BTMN co. </strong>
+        <h2> BTMN co. </h2>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -47,63 +50,67 @@
     </div>
   </nav>
 <!-- end nav -->
-    <main>
+    <main id="mainContactos">
         <!-- inciia comunicate -->
         <div class="comunicate">
-            <h6> COMUNICATE CON NOSOTROS!</h6>
+            <h3 id="textTituloForm" class="text-center mb-3 "> COMUNICATE CON NOSOTROS!</h3>
         </div>
-        <section>
-            <form class="row g-3">
+        <section id="sectionFormulario">
+          <!-- abre form -->  
+          <form id="formularioContactos" class="row g-3">
                 <div class="col-md-6">
-                  <label for="inputEmail4" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4">
+                  <label for="inputEmail4" class="form-label">Nombre</label>
+                  <input type="Nombre" class="form-control" id="inputEmail4">
                 </div>
-                <!-- <div class="col-md-6">
-                  <label for="inputPassword4" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="inputPassword4">
-                </div>
-                <div class="col-12">
-                  <label for="inputAddress" class="form-label">Address</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                 <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputPassword4">
                 </div>
                 <div class="col-12">
+                  <label for="inputAddress" class="form-label">Direccion</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Calle y Numero">
+                </div>
+                <!-- <div class="col-12">
                   <label for="inputAddress2" class="form-label">Address 2</label>
                   <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                </div> -->
+                </div>  -->
                 <div class="col-md-6">
-                  <label for="inputCity" class="form-label">City</label>
+                  <label for="inputCity" class="form-label">Ciudad</label>
                   <input type="text" class="form-control" id="inputCity">
                 </div>
                 <div class="col-md-4">
-                  <label for="inputState" class="form-label">State</label>
+                  <label for="inputState" class="form-label">Provincia</label>
                   <select id="inputState" class="form-select">
-                    <option selected>Choose...</option>
-                    <option>...</option>
+                    <option selected>Provincia...</option>
+                    <option>Cordoba</option>
+                    <option>Santa Fe</option>
+                    <option>Santiago del estero</option>
                   </select>
                 </div>
-                <div class="col-md-2">
-                  <label for="inputZip" class="form-label">Zip</label>
-                  <input type="text" class="form-control" id="inputZip">
-                </div>
+              
                 <div class="col-12">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="gridCheck">
                     <label class="form-check-label" for="gridCheck">
-                      Check me out
+                      No soy un robot
                     </label>
                   </div>
                 </div>
                 <div class="col-12">
-                  <button type="submit" class="btn btn-primary">Sign in</button>
+                  <button type="submit" class="btn btn-dark">Enviar</button>
                 </div>
               </form>
+              <!-- cierra form -->
               <!--  termina comunicate -->
         </section>
     </main>
-    <footer>
-        <p>Author: Hege Refsnes<br>
-        <a href="mailto:hege@example.com">hege@example.com</a></p>
-      </footer>
+ <!-- empieza footer -->
+ <footer>
+  <p>Nuestras redes<br>
+  <a class="linksFooter" href="http://facebook.com">FACEBOOK</a></p>
+  <a class="linksFooter" href="http://twitter.com">TWITTER</a></p>
+</footer>
+<!-- Termina footer -->
       
     <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
