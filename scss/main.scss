@@ -1,3 +1,4 @@
+@import "_mixins";
 *{
     margin: 0;
     padding: 0;
@@ -34,7 +35,9 @@ header {
   background: rgb(0,0,0);
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 90%, rgba(0,255,51,1) 100%);
 position: sticky;
+
 top: 0;
+
 } 
 
 footer {
@@ -192,7 +195,7 @@ color: white;
     font-style: oblique;
     color: aliceblue;
     }
-    
+   
 
 
     
