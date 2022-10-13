@@ -1,0 +1,35 @@
+$paleta:(
+    'uno': #ffffff,
+    'dos': #000000,
+    'tres':#8b1b8f,
+    'cuatro':#d80fb0,
+    'cinco': #9b9a9b,
+    'seis': #272727,
+    'siete':#ff0a0a,
+    'ocho':#00ff6a,
+    
+);
+@mixin texto ($fontsize, $interlineado, $color, ){
+    font-family: "Gotham Black", sans-serif;
+    font-size: $fontsize;
+    line-height: $interlineado;
+    color: $color;
+  
+}
+
+ h3{
+     @include texto(50px,1.2em, rgb(255, 255, 255));
+     text-align: center;
+     
+ }
+ @mixin textoParrafos ($fontsize, $interlineado, $color, ){
+    font-family: "Gotham Black", sans-serif;
+    font-size: $fontsize;
+    line-height: $interlineado;
+    color: $color;
+}
+    p{
+        @include textoParrafos(20px,1.2em, rgb(255, 255, 255));
+        text-align: center;
+        
+    }

@@ -1,4 +1,18 @@
+h3 {
+  font-family: "Gotham Black", sans-serif;
+  font-size: 50px;
+  line-height: 1.2em;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
 
+p {
+  font-family: "Gotham Black", sans-serif;
+  font-size: 20px;
+  line-height: 1.2em;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
 
 * {
   margin: 0;
@@ -89,27 +103,27 @@ h2 {
 }
 
 #primerParrafo {
-  background-color: rgb(37, 21, 75);
+  background-color: rgb(0, 0, 0);
   width: 100%;
   border: solid 2px black;
   border-radius: 10px;
 }
 
 #textBienvenidos {
-  font-size: 50px;
-  color: rgb(172, 157, 157);
+  font-size: 70px;
+  color: #ffffff;
 }
 
 .textCarru {
   font-size: 20px;
   text-align: center;
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
 
 .containerTextCarru {
   height: 40px;
-  border: solid 3px white;
+  border: solid 3px #ffffff;
   border-radius: 10px;
 }
 
@@ -129,7 +143,7 @@ h2 {
 
 #botonInfoHijo:hover {
   transition: 0.5s;
-  background-color: blueviolet;
+  background-color: rgb(15, 199, 15);
 }
 
 #formularioContactos {
@@ -146,7 +160,7 @@ h2 {
 
 #textTitutuloForm {
   font-size: 50px;
-  color: white;
+  color: #ffffff;
 }
 
 #mainContactos {
@@ -154,7 +168,7 @@ h2 {
 }
 
 #formularioContactos label {
-  color: white;
+  color: #ffffff;
 }
 
 .main-hack {
@@ -164,7 +178,7 @@ h2 {
 }
 
 .parrafoNygma {
-  color: white;
+  color: #ffffff;
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
@@ -174,7 +188,6 @@ h2 {
 .sectionNosotros {
   height: 1000px;
   width: 100%;
-  background-image: url(../multimedia/imagenes/fondo-nosotros.jpg);
 }
 
 .nosotrosParrafo {
@@ -182,5 +195,8 @@ h2 {
   font-size: 30px;
   font-family: "Gotham Black", sans-serif;
   font-style: oblique;
-  color: aliceblue;
+}
+
+.containerVideos {
+  background-color: #000000;
 }/*# sourceMappingURL=main.css.map */
