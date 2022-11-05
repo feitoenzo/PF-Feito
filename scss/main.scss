@@ -1,13 +1,14 @@
 @import "_mixins";
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import "_vars";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
-$grid-columns:      12;
-$grid-gutter-width: 1.5rem;
+
 $colorTextWhite: white;
 $alinearTexT: center;
 
@@ -28,181 +29,281 @@ $container-max-widths: (
   xl: 1140px,
   xxl: 1320px
 );
-header {
-    background-image: url(/multimedia/imagenes/header2.jpg);
+
+body {
+  background-color: black !important;
 }
+
+header {
+
+  background-image: url(/multimedia/imagenes/header2.jpg);
+}
+
 #nav {
-  background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 90%, rgba(0,255,51,1) 100%);
-position: sticky;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 70%, rgba(0, 255, 51, 1) 100%);
+  position: sticky;
 
-top: 0;
+  top: 0;
 
-} 
+}
 
 
 footer {
-    text-align: center;
-    padding: 3px;
-    background-color: rgb(87, 86, 85);
-    color: white;
-    position:fixed bottom;
-    
-  }
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(87, 86, 85);
+  color: white;
+  position: fixed bottom;
+
+}
 
 #containerIndex1 {
-   
-    text-align: center;
-}
-  #cardHeader{
-   
-   width: 100%;
-    height: 200px;
-  }
-  #imagenPrincipal{
- width: 100%;
- max-height: 500px;
- min-height: 100px;
-   
-  }
 
-  
- .row{padding: 5px;}
- #logoPrincipal {
-    height: 30px;
-    width: 30px;
- }
- .card-title{
+  text-align: center;
+}
+
+#cardHeader {
+
+  width: 100%;
+  height: 200px;
+}
+
+#imagenPrincipal {
+  width: 100%;
+  max-height: 500px;
+  min-height: 100px;
+
+}
+
+h1 {
+  color: $textWhite;
+}
+
+.row {
+  padding: 5px;
+}
+
+#logoPrincipal {
+  height: 30px;
+  width: 30px;
+}
+
+.card-title {
   color: $colorTextWhite;
   text-align: $alinearTexT;
- }
- .card-text{
-color: $colorTextWhite;
-text-align: $alinearTexT;
- }
- 
- 
- 
-h2
-{text-align: center;
-  color: $colorTextWhite;
-} 
-    
-
- #batDark  {
-    object-fit: cover;
-    width:100%;
-    height:100%; }
-
-    #sectionProductos {
-        background-color: black;
-    }
-    
-    #fila1 {
-        width: 50%;
-    }
-
-    #containerNavList a {
-      color: $colorTextWhite;
-    }
-  
-  .linksFooter{
-    text-decoration: none;
-
-  }
-  #primerParrafo{
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    border: solid 2px black;
-    border-radius: 10px;
-  }
-  #textBienvenidos{
-    font-size: 70px;
-    color:map-get($map:$paleta , $key:'uno');}
-    .textCarru{
-      font-size: 20px;
-      text-align: center;
-      text-decoration: none;
-      color: map-get($map:$paleta , $key:'uno');
-      
-    }
-    .containerTextCarru{
-      height: 40px;
-      
-      border: solid 3px map-get($map:$paleta , $key:'uno');
-      border-radius: 10px;
-    }
-  
-    
-    #botonInfo{
-      width: 100%;
-      height: 200px;
-         
-        margin-left: auto;
-        margin-right: auto; 
-     
-      
-    }
-    #botonInfoHijo{
-     width: 100%;
-     height: 100%;
-     overflow: hidden;
-     background-color: rgb(3, 3, 3);
-    }
-  #botonInfoHijo:hover{
-    transition: .5s;
-    background-color: rgb(15, 199, 15);
-    }
-    #formularioContactos {
-      width: 70%;
-      border: solid 3px black;
-      margin-left: auto;
-      margin-right: auto;
-      padding: 10px;
-    }
-    #mainIndex{
-      background-color: black;
-    }
-    #textTitutuloForm{
-      font-size: 50px;
-      color: map-get($map:$paleta , $key:'uno');
-
-    }
-    #mainContactos{
-      background-color: black;
-    }
-    #formularioContactos label {
-color: map-get($map:$paleta , $key:'uno');
-    }
-    .main-hack {
-      width: 100%;
-      
-      height: 1000px;
-    background-image: url(../multimedia/imagenes/riddle_back.jpg);
 }
-    .parrafoNygma{
-      color: map-get($map:$paleta , $key:'uno');
-      text-align: center;
-      margin-top: auto;
-      margin-bottom: auto;
-      font-size: 80px;
+
+.card-text {
+  color: $colorTextWhite;
+  text-align: $alinearTexT;
+}
+
+
+
+h2 {
+  text-align: center;
+  color: $textWhite
+}
+
+
+#batDark {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#sectionProductos {
+  background-color: black;
+}
+
+
+
+#containerNavList a {
+  color: $colorTextWhite;
+}
+
+
+
+#primerParrafo {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#textBienvenidos {
+  font-size: 70px;
+  color: map-get($map: $paleta , $key: 'uno');
+}
+
+.textCarru {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: map-get($map: $paleta , $key: 'uno');
+
+}
+
+.containerTextCarru {
+  height: 40px;
+
+  border: solid 3px map-get($map: $paleta , $key: 'uno');
+  border-radius: 10px;
+}
+
+
+#botonInfo {
+  width: 100%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  & button {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(3, 3, 3);
+
+    &:hover {
+      transition: .5s;
+      background-color: $greenTransition;
     }
-    .sectionNosotros{
-      height: 1000px;
-      width: 100%;
-      
   }
-  .nosotrosParrafo{
-    background-color: transparent;
-    font-size: 30px;
-    font-family: 'Gotham Black', sans-serif;
-    font-style: oblique;
-   
+}
+
+/*contactos*/
+#formularioContactos {
+  width: 70%;
+  border: solid 3px black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+#textTitutuloForm {
+  font-size: 50px;
+  color: map-get($map: $paleta , $key: 'uno');
+}
+
+#mainContactos {
+  background-color: black;
+}
+
+#formularioContactos label {
+  color: map-get($map: $paleta , $key: 'uno');
+}
+
+/* fin contactos*/
+/*comics*/
+#galeriaComics .col-lg-4 {
+  margin: 0% !important;
+  padding: 70px;
+
+  & img {
+    width: 100%;
+    height: 500px;
+
+    &:hover {
+      border: 5px solid $greenTransition;
     }
-    .containerVideos {
-     background-color: map-get($map:$paleta , $key:'dos');
-    }
-   
+  }
+}
 
 
-    
+
+strong {
+  width: 100%;
+  border: 1px solid;
+  padding: 2px 5px;
+
+  /* BOTH of the following are required for text-overflow */
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+/*peliculas*/
+#galeriaCards {
+  background-color: black;
+
+  & .row .col-lg-4 {
+    margin: 0% !important;
+    padding: 70px;
+
+    & .card {
+      width: 100%;
+      height: 600px;
+      border: solid 3px black;
+
+
+
+
+      & img {
+        width: 100%;
+        height: 400px;
+        transition: transform .2s;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      & a {
+        width: 100%;
+        height: 30px;
+        padding: 2px;
+        border-radius: 5px;
+
+      }
+    }
+  }
+}
+
+
+/*comics*/
+h5 {
+  @include texto(22px, 1.2em, $textWhite);
+  text-align: center;
+  text-decoration: underline;
+}
+
+h6 {
+  @include texto(17px, 1.2em, $textWhite);
+  text-align: center;
+}
+
+
+.parallax {
+  /* The image used */
+
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  background-image: url("/multimedia/imagenes/batman_fondo.jpg");
+  background-attachment: fixed;
+  background-position: left;
+
+  & .parallaxDescription {
+    width: 90%;
+    max-width: 1000px;
+    display: block;
+    margin-left: 50px;
+  }
+
+}
+
+section {
+  & .text-center {
+    color: $textWhite;
+    font-size: 20px;
+  }
+
+  & .carousel-item {
+    & img {
+      max-height: 400px;
+    }
+  }
+}

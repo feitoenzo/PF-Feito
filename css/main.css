@@ -1,6 +1,5 @@
 h3 {
   font-family: "Gotham Black", sans-serif;
-  font-size: 50px;
   line-height: 1.2em;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -20,13 +19,17 @@ p {
   box-sizing: border-box;
 }
 
+body {
+  background-color: black !important;
+}
+
 header {
   background-image: url(/multimedia/imagenes/header2.jpg);
 }
 
 #nav {
   background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 90%, rgb(0, 255, 51) 100%);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 255, 51) 100%);
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -53,6 +56,10 @@ footer {
   width: 100%;
   max-height: 500px;
   min-height: 100px;
+}
+
+h1 {
+  color: white;
 }
 
 .row {
@@ -90,16 +97,8 @@ h2 {
   background-color: black;
 }
 
-#fila1 {
-  width: 50%;
-}
-
 #containerNavList a {
   color: white;
-}
-
-.linksFooter {
-  text-decoration: none;
 }
 
 #primerParrafo {
@@ -133,29 +132,24 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
-
-#botonInfoHijo {
+#botonInfo button {
   width: 100%;
   height: 100%;
   overflow: hidden;
   background-color: rgb(3, 3, 3);
 }
-
-#botonInfoHijo:hover {
+#botonInfo button:hover {
   transition: 0.5s;
   background-color: rgb(15, 199, 15);
 }
 
+/*contactos*/
 #formularioContactos {
   width: 70%;
   border: solid 3px black;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-}
-
-#mainIndex {
-  background-color: black;
 }
 
 #textTitutuloForm {
@@ -171,32 +165,95 @@ h2 {
   color: #ffffff;
 }
 
-.main-hack {
+/* fin contactos*/
+/*comics*/
+#galeriaComics .col-lg-4 {
+  margin: 0% !important;
+  padding: 70px;
+}
+#galeriaComics .col-lg-4 img {
   width: 100%;
-  height: 1000px;
-  background-image: url(../multimedia/imagenes/riddle_back.jpg);
+  height: 500px;
+}
+#galeriaComics .col-lg-4 img:hover {
+  border: 5px solid rgb(15, 199, 15);
 }
 
-.parrafoNygma {
-  color: #ffffff;
-  text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
-  font-size: 80px;
-}
-
-.sectionNosotros {
-  height: 1000px;
+strong {
   width: 100%;
+  border: 1px solid;
+  padding: 2px 5px;
+  /* BOTH of the following are required for text-overflow */
+  white-space: nowrap;
+  overflow: hidden;
 }
 
-.nosotrosParrafo {
-  background-color: transparent;
-  font-size: 30px;
+/*peliculas*/
+#galeriaCards {
+  background-color: black;
+}
+#galeriaCards .row .col-lg-4 {
+  margin: 0% !important;
+  padding: 70px;
+}
+#galeriaCards .row .col-lg-4 .card {
+  width: 100%;
+  height: 600px;
+  border: solid 3px black;
+}
+#galeriaCards .row .col-lg-4 .card img {
+  width: 100%;
+  height: 400px;
+  transition: transform 0.2s;
+}
+#galeriaCards .row .col-lg-4 .card img:hover {
+  transform: scale(1.05);
+}
+#galeriaCards .row .col-lg-4 .card a {
+  width: 100%;
+  height: 30px;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+/*comics*/
+h5 {
   font-family: "Gotham Black", sans-serif;
-  font-style: oblique;
+  line-height: 1.2em;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
 }
 
-.containerVideos {
-  background-color: #000000;
+h6 {
+  font-family: "Gotham Black", sans-serif;
+  line-height: 1.2em;
+  color: white;
+  text-align: center;
+}
+
+.parallax {
+  /* The image used */
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  background-image: url("/multimedia/imagenes/batman_fondo.jpg");
+  background-attachment: fixed;
+  background-position: left;
+}
+.parallax .parallaxDescription {
+  width: 90%;
+  max-width: 1000px;
+  display: block;
+  margin-left: 50px;
+}
+
+section .text-center {
+  color: white;
+  font-size: 20px;
+}
+section .carousel-item img {
+  max-height: 400px;
 }/*# sourceMappingURL=main.css.map */
